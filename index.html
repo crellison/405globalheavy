@@ -7,18 +7,23 @@
 </head>
 
 <style>
+  :root {
+    --black: #0f0f0f;
+    --white: #fafafa;
+  }
+
   body {
-    background-color: #000;
-    color: #fff;
+    background-color: var(--black);
+    color: var(--white);
     font-family: Helvetica, sans-serif;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     margin: 0;
     padding: 0;
   }
 
   .container {
-    border-top: 10rem solid #fff;
+    border-top: 10rem solid var(--white);
     width: min-content;
     padding-top: 0.2rem;
     margin: 40px 30px;
